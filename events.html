@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,300,600,400,700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-ae4917aa.js"></script>
+    <link rel="stylesheet" href="/assets/index-d24f827b.css">
+    <title>Virtualize | Events</title>
+</head>
+<body style="background-color: var(--color-black); overflow-y: scroll;" loading="lazy">
+    <header class="head-container">
+        <div class="nav-head-container" id="fake-nav-cont">
+          <img src="./
+logo.png" alt="logo" class="nav-logo">
+          <div class="ham-burger-cont" id="ham-btn">
+            <div class="ham-line"></div>
+            <div class="ham-line"></div>
+            <div class="ham-line"></div>
+          </div>
+        </div>
+        <nav class="nav-container" id ="nav-box">
+          <div class="nav-item-cont">
+            <a href="./index.html" class="nav-item">Home</a>
+            <a href="./events.html" class="nav-item">Events</a>
+            <a href="./workshops.html" class="nav-item">Workshops</a>
+            <a href="./team.html" class="nav-item">Team</a>
+          </div>
+        </nav>
+    </header>
+
+    <div class="main-body-cont">
+        <div class="page-head-text flicker-3">Events</div>
+        <div class="event-container">
+            <div class="event-card-container">
+                <div class="event-img-container">
+                    <img src="./
+laptop-cloud-storage-shared-access-isometric-vector-id1063730694_0.jpg" alt="" class="event-img">
+                </div>
+                <div class="event-title">
+                    Copy Cat!
+                </div>
+                <div class="event-description-container">
+                    The participant is required to replicate the given website within given stipulated time. The code editor is of the participant choice. However the participant is required to only use given resources for a site. Join us to show your Frontend Skills!
+                </div>
+                <div class="event-read-button">
+                    <button data-popup-target="#pop-up" class="event-read" id="read1">
+                        Read
+                    </button>
+                </div>
+            </div>
+
+            <div class="event-card-container">
+                <div class="event-img-container">
+                    <img src="./blockchain_07_generated.jpg" alt="" class="event-img">
+                </div>
+                <div class="event-title">
+                    Breaking bad!
+                </div>
+                <div class="event-description-container">
+                    This is the event in which the participant is required to hack the given application, within stipulated time. The application and code use is participant's choice. There are totally 3 rounds. Join us to show your Hacking Skills! See you in arena!
+                </div>
+                <div class="event-read-button">
+                    <button class="event-read" id="read2">
+                        Read
+                    </button>
+                </div>
+            </div>
+
+            <div class="event-card-container">
+                <div class="event-img-container">
+                    <img src="./
+OIP.jpg" class="event-img">
+                </div>
+                <div class="event-title">
+                    Touch me if you can!
+                </div>
+                <div class="event-description-container">
+                    This is the event curated for blackhat hackers. In this event the participant is required to steal the data from given data set (which is protected) without knowing that it's happening. The application data to be breached will be announced in Arena!
+                </div>
+                <div class="event-read-button">
+                    <button class="event-read" id="read3">
+                        Read
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-up-content-container" id="pop-up">
+        <div class="pop-up-top-cont">
+            <div class="event-name-cont event-title" id="p-title">
+                Event Name
+            </div>
+            <hr>
+            <div class="event-rules" id="p-rules">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eveniet nobis culpa explicabo perspiciatis eos saepe qui ad odio non.
+            </div>
+            <div class="btm-pop-up">
+                <button class="btn-reg p-btn">Register</button>
+                <button data-close-btn class="btn-close p-btn" id="p-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <div class="animation-bg-container">
+        <ul class="background">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+    </div>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./nav.js"></script>
+    <script type="module" src="./pop-up.js"></script>
+</body>
+</html>
